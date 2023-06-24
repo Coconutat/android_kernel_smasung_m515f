@@ -87,11 +87,15 @@ const char *selinux_policycap_names[__POLICYDB_CAPABILITY_MAX] = {
 };
 
 static struct selinux_ss selinux_ss;
+int ss_initialized;
+/*
 #if (defined CONFIG_RKP_KDP && defined CONFIG_SAMSUNG_PRODUCT_SHIP)
 int ss_initialized __kdp_ro;
 #else
 int ss_initialized;
 #endif
+*/
+
 
 void selinux_ss_init(struct selinux_ss **ss)
 {

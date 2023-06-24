@@ -51,9 +51,9 @@ subdir-$(CONFIG_GAF) += proca/gaf
 obj-$(CONFIG_GAF)    += proca/gaf/
 
 # Knox SDP
-obj-$(CONFIG_SDP) += sdp/
-obj-$(CONFIG_SDP) += sdp/built-in.o
+# obj-$(CONFIG_SDP) += sdp/
+# obj-$(CONFIG_SDP) += sdp/built-in.o
 
 # Knox HDM
-obj-$(CONFIG_HDM)			+= hdm/
+# obj-$(CONFIG_HDM)			+= hdm/
 
