@@ -1,0 +1,5 @@
+
+out
+kernel_log*.txt
+*.gz
+*.gz*
