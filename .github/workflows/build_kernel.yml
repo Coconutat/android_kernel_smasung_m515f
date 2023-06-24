@@ -105,7 +105,7 @@ jobs:
         export ANDROID_MAJOR_VERSION=r
         export KCFLAGS=-w
 
-        make O=out KCFLAGS=-w ARCH=arm64 CC="ccache clang" a10s_defconfig
+        make O=out KCFLAGS=-w ARCH=arm64 CC="ccache clang" m51_eur_open_defconfig
 
         make O=out KCFLAGS=-w ARCH=arm64 CC="ccache clang" -j$(nproc --all)
 
